@@ -1,0 +1,50 @@
+{
+  "name": "node.trakstar-crud",
+  "version": "1.0.0",
+  "description": "This is a repository with node backend service, for apply role Sr. Software Engineer.",
+  "main": "server.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 16.14.2"
+  },
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pardock/node.trakstar-crud.git"
+  },
+  "keywords": [
+    "trakstar"
+  ],
+  "author": "José Dominguez Pardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pardock/node.trakstar-crud/issues"
+  },
+  "homepage": "https://github.com/pardock/node.trakstar-crud#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "cuid": "^2.1.8",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "http-terminator": "^3.2.0",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "promise-mysql": "^5.1.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-extended": "^2.0.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
